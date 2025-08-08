@@ -2,7 +2,7 @@
 // function = executa alguma tarefa específica com o código criado; só executa uma função se ela for "chamada".
 
 let listaDeNumerosSorteados = []; // cria uma lista de números sorteados;
-let numeroLimite = 10000;
+let numeroLimite = 1000;
 let numeroSecreto = gerarNumeroAleatorio(); // cria uma variável (numeroSecreto) e chamar uma função criada no final do código que gera um número aleatório;
 let tentativas = 1; // cria uma variável de tentativas;
 exibirMensagemInicial(); // e executa a função para que o código leia a mensagem inicial.
