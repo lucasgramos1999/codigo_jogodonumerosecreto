@@ -10,7 +10,7 @@ exibirMensagemInicial(); // e executa a função para que o código leia a mensa
 function exibirTextoNaTela(tag, texto) { // função com mais de um parâmetro e que executa uma ação.
     let campo = document.querySelector(tag); //  documentoHTML.seleciona um elemento do código com no parâmetro (tag)
     campo.innerHTML = texto;  //  insere o conteúdo (texto) dentro desse elemento.
-    responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate: 0.8});
+    responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate: 0.9});
 }
 
 function exibirMensagemInicial() {
