@@ -22,7 +22,7 @@ function verificarChute() {  // função sem parâmetro e sem retorno (usada ape
     let chute = document.querySelector ("input").value; // puxar apenas os números do parâmetro "input" do código HTML .value pega o que o usuário digitou;
 
     if (chute == numeroSecreto) {
-        exibirTextoNaTela("h1","Parabéns, você acertou o número!");
+        exibirTextoNaTela("h1","Parabéns, você acertou o número secreto!");
         let palavraTentativa = tentativas > 1 ? "tentativas" : "tentativa"; // variável criada para questão ortográfica.
         let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`; // variável criada para questão ortográfica.
         exibirTextoNaTela("p",mensagemTentativas);
